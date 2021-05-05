@@ -4,6 +4,7 @@
   "description": "test with canvas to display visitors in a museum.",
   "main": "index.js",
   "devDependencies": {
+    "prettier": "^2.2.1",
     "snowpack": "^3.3.7"
   },
   "scripts": {
@@ -16,5 +17,8 @@
     "museum"
   ],
   "author": "Karten-Werk GmbH, Hanskaspar Frei",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "line-circle-collision": "^1.1.3"
+  }
 }

@@ -5,4 +5,5 @@ module.exports = {
     minify: true,
     target: "es2018",
   },
+  polyfillNode: true, // needed for line-circle-collision package
 };
