@@ -1,10 +1,7 @@
-# CIRCLES ON CANVAS / VISITORS IN A MUSEUM
+# CIRCLES ON CANVAS / VISITORS IN A ROOM
 
-The goal of this project is to have a analogy of visitors in a room
-The circles represent people in a museum. Every time a new person enters,
-a new circle appears on the canvas. When a person leaves, the point will
-be removed from the canvas. In order for this to work automaticaly, the buttons
-for adding and removing circles must be replaced by a service which dispaches events to the app.
+The goal of this project, is to have a analogy of visitors in a room.
+Every time a person enters the room, a new circle appears on the canvas. When a person leaves, the circle will be removed. In order for this to work automatically, the buttons for adding and removing circles, must be replaced by a service, which dispaches events to the app.
 The circles have a random speed, direction and color.
 
 ![print screen](print_screen.jpg "Printscreen")
@@ -14,7 +11,7 @@ The circles have a random speed, direction and color.
 Get a local copy of the project
 
 ```
-git clone https://github.com/hkfrei/movincircles.git
+git clone https://github.com/hkfrei/movingcircles.git
 ```
 
 Enter the newly created directory.
