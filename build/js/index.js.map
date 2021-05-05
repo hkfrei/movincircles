@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../build/js/helper.js", "../../build/js/index.js"],
+  "sourcesContent": ["export function hello() {\r\n  console.log(\"hello hk!\");\r\n}\r\n", "import { hello } from \"./helper.js\";\r\n\r\nhello();\r\n"],
+  "mappings": "AAAO,YAAiB,CACtB,QAAQ,IAAI,aCCd",
+  "names": []
+}

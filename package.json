@@ -1,0 +1,24 @@
+{
+  "name": "museum",
+  "version": "1.0.0",
+  "description": "test with canvas to display visitors in a museum.",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "snowpack": "^3.3.7"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "canvas",
+    "museum"
+  ],
+  "author": "Karten-Werk GmbH, Hanskaspar Frei",
+  "license": "ISC",
+  "dependencies": {
+    "line-circle-collision": "^1.1.3"
+  }
+}
